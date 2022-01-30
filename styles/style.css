@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: monospace;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+/*Header*/
+header{
+    background-color: #1f2937;
+    display: flex;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0 20px 0;
+}
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font: 800;
+}
+ul, #logo{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*Hero*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 500px;
+}
+
+.left, .right{
+    height: 300px;
+    width: 600px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+    margin-top: -8px;
+}
+
+.left p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.left button{
+    background-color: #3882F6;
+    font-size: 20px;
+    width: 120px;
+    height: 35px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white
+}
+.img-card{
+    background-color: gray;
+    height: 300px;
+}
+
+/*Information*/
+main .container{
+    text-align: center;
+}
+main h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.panel{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.card-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 260px;
+}
+.card-wrap p {
+    width: 150px;
+}
+.card{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+}
+
+/*Quote aside*/
+aside{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.quote{
+    padding: 40px 130px 40px 130px;
+}
+/*call*/
+.hit{
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+.hit .call{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #3882F6;
+    padding: 100px 130px 100px 130px;
+}
+.call-left h3{
+    font-size: 28px;
+    margin: 0;
+}
+.call-left p{
+    font-size: 20px;
+}
+.call-right button{
+    color: white;
+    border: 1px solid white;
+    background-color: inherit;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+}
+
+
+/*footer*/
+.footer .cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #1f2937;
+}
